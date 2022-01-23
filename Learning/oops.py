@@ -1,3 +1,5 @@
+# This is my way to understand POOP
+
 class Quark():
     def __init__(self):
         print("Quark works!")
