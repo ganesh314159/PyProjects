@@ -23,7 +23,9 @@ class Nucleus(Proton):
     def doYouWant(self):
         a = input("Do you want pikachu? (y/n) : ")
         if a == "y":
-            print("Take your pikachu")
+            # print("Take your pikachu")
+            # super().iwant()
+            self.iwant()
         elif a == "n":
             print("Ok, you won't get pikachu")
         else :
